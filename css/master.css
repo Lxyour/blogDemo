@@ -142,6 +142,9 @@ table { border-spacing:0; border-collapse:collapse;}
 .hide {
     visibility: hidden;
 }
+.show {
+	display: block;
+}
 
 
 
