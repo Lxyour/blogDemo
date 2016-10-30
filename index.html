@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cmn-Hans">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>首页-个人博客</title>
+	<link rel="stylesheet" href="css/master.css" >
+</head>
+<body>
+	<div class="wrap">
+		<div class="header-box">
+			<div class="header">
+				<h1 class="hd-logo"><a href="#">HINDY DESIGN</a></h1>
+				<div class="nav">
+					<ul>
+						<li class="current"><a href="#">PORTFOLIO</a></li>
+						<li><a href="#">BLOG</a></li>
+						<li><a href="#">WORK</a></li>
+						<li><a href="#">ABOUT</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="body-box">
+			<div class="container">
+				<div class="focus">
+					<div class="container-fluid text-center">
+							<div class="header">
+									<img class="headerImg"
+											 src="images/header.jpg"
+											 data-slideshow='images/img1.jpg|images/img2.jpg|images/img3.jpg'>
+							</div>
+					</div>
+				</div>
+				<div class="items-box clearfix">
+					<div class="item">
+						<div class="item-img">
+							<a href="#"><img src="images/img001.png"></a>
+						</div>
+						<h3>To Rothko</h3>
+					</div>
+					<div class="item">
+						<div class="item-img">
+							<img src="images/img001.png">
+						</div>
+						<h3>To Rothko</h3>
+					</div>
+					<div class="item">
+						<div class="item-img">
+							<img src="images/img001.png">
+						</div>
+						<h3>To Rothko</h3>
+					</div>
+					<div class="item">
+						<div class="item-img">
+							<img src="images/img001.png">
+						</div>
+						<h3>To Rothko</h3>
+					</div>
+					<div class="item">
+						<div class="item-img">
+							<img src="images/img001.png">
+						</div>
+						<h3>To Rothko</h3>
+					</div>
+					<div class="item">
+						<div class="item-img">
+							<img src="images/img001.png">
+						</div>
+						<h3>To Rothko</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="copyright">
+				乐潇游WEB 版权所有 Copyright © 2014-2016 LXYWEB Inc. All Rights Reserved
+			</div>
+		</div>
+	</div>
+	
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.hammer-full.min.js"></script>
+<script src="js/plugin.js"> </script>
+<script src="js/lrtk.js"></script>
+<script>
+var links = ["http://www.lanrentuku.com", "http://www.lanrentuku.com/lanren/", "http://www.lanrentuku.com/js/biaoqian.html", "http://www.lanrentuku.com/js/xiangce.html"];
+$(".slide").click(function(){
+    var index = $(this).attr('index');
+	if(index === undefined) {
+		window.open(links[0]);
+	} else {
+		window.open(links[(parseInt(index)+1)]);
+	}
+
+});
+</script>
+</body>
+</html>
